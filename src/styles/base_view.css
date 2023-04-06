@@ -1,0 +1,17 @@
+.view {
+    padding: 20px;
+    font-family: boogaloo;
+    font-size: 100px;
+    white-space: pre-wrap;
+}
+
+
+@media all and (max-width: 600px),
+all and (max-height: 600px) {
+    .view {
+        padding: 20px;
+        font-family: boogaloo;
+        font-size: 30px;
+        white-space: pre-wrap;
+    }
+}
